@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo-List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <p>My.List</p>
+            </div>
+            <div class="mode">
+                <li><il class="uil uil-sunset"></il></li>
+                <li><il class="uil uil-moonset"></il></li>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="add-box">
+            <div class="icon"><i class="uil uil-edit-alt"></i></div>
+        </section>
+        <section class="create">
+            <form>
+                <div class="close">
+                    <i class="fa-solid fa-x"></i>
+                </div>
+                <div class="input">
+                    <input type="text" name="text" id="text-input">
+                    <button type="submit" class="todo-btn">
+                        <i class="fa-solid fa-plus"></i>
+                    </button>
+                </div>
+            </form>
+        </section>
+        <div class="select">
+            <select name="todos" class="filter-todo">
+                <option value="all">All</option>
+                <option value="completed">Completed</option>
+                <option value="uncompleted">Uncompleted</option>
+            </select>
+        </div>
+        <section class="todo-container">
+            <ul class="todo-list"></ul>
+        </section>
+        <section class="preview">
+            <img src="./img/undraw_chore_list_re_2lq8 (1).svg" alt="undraw_chore_list_re_2lq8">
+        </section>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
