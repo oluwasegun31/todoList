@@ -91,7 +91,7 @@ nav .mode{
     top: 0;
     left: 0;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background: rgba(134, 134, 134, 0.562);
     display: flex;
     justify-content: center;
@@ -99,6 +99,7 @@ nav .mode{
     transform-origin: left;
     transition: all 0.4s ease-in-out;
     z-index: 4;
+
 }
 .create.add{
     transform: scale(1);
@@ -107,7 +108,7 @@ nav .mode{
 form{
     width: 500px;
     background: #e69200;
-    height:25vh;
+    height:200px;
     border-radius: 5px;
     padding: 10px 15px;
     display: flex;
