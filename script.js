@@ -39,7 +39,6 @@ addTodoBtn.addEventListener('click', function(e){ ///adding odo
 
         todoList.appendChild(todoContain)
         closeBox.click()
-        window.location.reload()
     }
 });
 
@@ -125,13 +124,6 @@ function showTodoItem(){
 
         todoList.appendChild(todoContain)
 
-        const preview = document.querySelector(".preview")
-        if(todos.length === 0){
-            preview.style.display = 'block'
-        } else{
-            preview.style.display = 'none'
-        }
-        
     })
 }
 showTodoItem()
@@ -148,11 +140,6 @@ function deleteTodoStorage(todo){
     todos.splice(todos.indexOf(todoIndex), 1);
     localStorage.setItem('todos', JSON.stringify(todos))
     const preview = document.querySelector(".preview")
-    if(todos.length === 0){
-        preview.style.display = 'block'
-    } else{
-        preview.style.display = 'none'
-    }
     
 }
 

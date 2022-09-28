@@ -38,7 +38,7 @@ nav .mode{
     height: 60px;
     width: 60px;
     background: linear-gradient(145deg, #e69200, #ffad00);
-    box-shadow: 6px 6px 19px #d98a00, -6px -6px 19px #ffba00;
+    box-shadow: 6px 6px 19px #d98900a6, -6px -6px 19px #d98900a6;
     border-radius: 50%;
     font-size: 36px;
     color: #fff;
@@ -51,7 +51,7 @@ nav .mode{
 }
 .mode.dark{
     background: linear-gradient(145deg, #2b2b2b, #535353);
-    box-shadow: 6px 6px 19px #2b2b2b, -6px -6px 19px #535353;
+    box-shadow: 6px 6px 19px #2b2b2b, -6px -6px 19px #2b2b2b;
 }
 .mode li{
     transform: translate(100%, -5px);
@@ -70,7 +70,7 @@ nav .mode{
     width: 60px;
     border-radius: 50%;
     background: linear-gradient(145deg, #e69200, #ffad00);
-    box-shadow: 6px 6px 19px #d98a00, -6px -6px 19px #ffba00;
+    box-shadow: 6px 6px 19px #d98900a6, -6px -6px 19px #d98900a6;
     font-size: 32px;
     color: #fff;
     display: flex;
@@ -80,7 +80,7 @@ nav .mode{
 }
 .add-box.dark{
     background: linear-gradient(145deg, #2b2b2b, #535353);
-    box-shadow: 6px 6px 19px #2b2b2b, -6px -6px 19px #535353;
+    box-shadow: 6px 6px 19px #2b2b2b, -6px -6px 19px #2b2b2b;
 }
 .add-box:hover{
     font-size: 28px;
